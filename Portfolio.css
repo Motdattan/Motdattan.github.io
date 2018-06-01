@@ -1,0 +1,159 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #D3D3D3;
+}
+.hoofdnavigatie ul li {
+    display: inline-block;
+    font-family: COCOMAT;
+    font-size: 20px;
+    margin: 2%;
+    float: left;
+}
+.hoofdnavigatie {
+    list-style: none;
+    width: 70%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10%;
+}
+header {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+header h1 {
+    display: inline;
+}
+header a:link {
+    color: #343434;
+}
+header a:visited {
+    color: #343434;
+}
+header a:hover {
+    color: white;
+}
+#Overmij {
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#Overmij h1 {
+    font-family: COCOMAT;
+    color: #343434;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.Overmij p {
+    font-family: Verdana;
+    color: #343434;
+    font-size: 12px;
+    padding-left: 100px;
+    width: 450px;
+    float: left;
+    padding-bottom: 50px;
+}
+.Overmij img {
+    float: right;
+    padding-right: 100px;
+}
+.homenav {
+    list-style: none;
+    margin-left: auto;
+}
+.homenav ul li {
+    display: inline-block;
+    font-family: COCOMAT;
+    font-size: 20px;
+    margin: 2%;
+    float: left;
+}
+hr {
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+#homepage {
+    background-color: red;
+    background: url(fotohome.jpg);
+    height: 600px;
+    background-position: center;
+}
+.homenav a:link {
+    color: #FFFFFF;
+}
+.homenav a:visited {
+    color: #FFFFFF;
+}
+.homenav a:hover {
+    color: #343434;
+}
+#homelogo h1 {
+    display: inline;
+}
+#homelogo {
+    width: auto;
+    float: left;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.Logo {
+    margin-top: 10px;
+    width: 20%;
+    float: left;
+}
+#homepage h1 {
+    font-family: COCOMAT;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+    width: 60%;
+}
+#homepage p {
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.topics h1, .workshops h1, .excursion h1, .labweeks h1 {
+    font-family: COCOMAT;
+    color: #343434;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.topics h2, .workshops h2, .excursion h2, .labweeks h2 {
+    font-family: COCOMAT;
+    color: #343434;
+    padding-bottom: 15px;
+    padding-left: 100px;
+}
+.topics, .workshops, .excursion, .labweeks {
+    background-color: #FFFFFF;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+.topics p, .workshops p, .excursion p, .labweeks p {
+    font-family: Verdana;
+    color: #343434;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+}
